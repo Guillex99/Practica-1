@@ -18,14 +18,15 @@ html {
 .header-barra{
   background-color: rgb(226, 208, 149);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 4rem;
+  
 }
 .header-navegacion a{
   color: rgb(146, 101, 49);
   text-decoration: none;
-  padding: 0 .2rem;
+  padding: 0 1rem;
 }
 .header-navegacion a:hover{
   color: #000;

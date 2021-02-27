@@ -40,6 +40,11 @@ h1, h2{
     color: black;
 
 }
+
+.servicios .servicio h3,p{
+    font-weight: bolder;
+}
+
 .servicio{
     display: flex;
     flex-direction: column;

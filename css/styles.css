@@ -1,6 +1,41 @@
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
+    min-height: 100%;
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
+.contenido-header{
+  max-width: 120rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.contenido-header img{
+    max-width: 100%;
+
+}
+.header-barra{
+  background-color: rgb(226, 208, 149);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+.header-navegacion a{
+  color: rgb(146, 101, 49);
+  text-decoration: none;
+  padding: 0 .2rem;
+}
+.header-navegacion a:hover{
+  color: #000;
+}
+.imagen-header img{
+  object-fit: cover;
+  object-position: center center;
+  height: 35rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-position: center center;
+}

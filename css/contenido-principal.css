@@ -11,8 +11,9 @@ body{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
-    
+    background-color: #fff!important;
 }
+
 
 h1, h2{
     text-align: center;
